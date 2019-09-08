@@ -1,11 +1,9 @@
-#ifndef LIB_TEMPL
-#define LIB_TEMPL
+#ifndef ARDUINO_MISW
+#define ARDUINO_MISW
 
 #include <Arduino.h>
 
-//#include <ESP8266WiFi.h>
-//#include <WiFiUdp.h>
-
+// Nano Wrapper
 #ifdef ARDUINO_AVR_NANO
 #define A0 14
 #define A1 15
@@ -33,24 +31,8 @@
 #define PIN_LED   D7
 #define PIN_ BUZZ D8
 
-#define BLINK_DELAY 100
-
-namespace Templ
-{
-
-  class TemplClass
-  {
-  public:
-    TemplClass();
-    //˜TemplClass(){}
-
-    void blink(void);
-
-  private:
-    TemplClass(TemplClass const&)     = delete;
-    void operator=(TemplClass const&) = delete;
-  };
-
-};
-
+#ifndef DEBUG
+#define DEBUG
 #endif
+
+#endif //
