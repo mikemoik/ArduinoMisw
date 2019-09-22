@@ -1,5 +1,4 @@
-#ifndef ARDUINO_MISW
-#define ARDUINO_MISW
+#pragma once
 
 #include <Arduino.h>
 
@@ -34,5 +33,3 @@
 #ifndef DEBUG
 #define DEBUG
 #endif
-
-#endif //
