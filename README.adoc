@@ -1,4 +1,4 @@
-= Library Template for Platform IO =
+Several small Arduino Wrappers and Defines for e.g. Board Abstraction.
 
 TBD
 
