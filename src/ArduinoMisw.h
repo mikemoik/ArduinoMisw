@@ -35,7 +35,7 @@
 #endif
 
 // sensor
-#define MISW_SENSOR_MIN_TEMP -50.0f
-#define MISW_SENSOR_MAX_TEMP +50.0f
-#define MISW_SENSOR_MIN_PRES 8000.0f
-#define MISW_SENSOR_MAX_PRES 12000.0f
+#define MISW_SENSOR_MIN_TEMP -50.0f // [*C]
+#define MISW_SENSOR_MAX_TEMP +50.0f // [*C]
+#define MISW_SENSOR_MIN_PRES 80000.0f // [Pa]
+#define MISW_SENSOR_MAX_PRES 120000.0f // [Pa]
