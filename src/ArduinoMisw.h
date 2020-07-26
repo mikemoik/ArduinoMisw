@@ -33,3 +33,9 @@
 #ifndef DEBUG
 #define DEBUG
 #endif
+
+// sensor
+#define MISW_SENSOR_MIN_TEMP -50.0f
+#define MISW_SENSOR_MAX_TEMP +50.0f
+#define MISW_SENSOR_MIN_PRES 8000.0f
+#define MISW_SENSOR_MAX_PRES 12000.0f
